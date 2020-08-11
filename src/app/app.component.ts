@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'morse-pipe-example';
+
+  toBeTransformed: string = null;
+  transformTo: string = 'md5';
 }
